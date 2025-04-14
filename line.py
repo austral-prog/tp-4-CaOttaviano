@@ -13,6 +13,6 @@ def line():
     y1 = float(a*x1 + b)
     print(f"\tP1 ({x1}, {y1})")
     y2 = float(a*x2 + b)
-    print(f"\tP1 ({x2}, {y2})")
+    print(f"\tP2 ({x2}, {y2})")
     d = (((y2-y1)**2)+((x2-x1)**2))**(1/2)
     print(f"\nLa distancia entre ellos es: {d}")
